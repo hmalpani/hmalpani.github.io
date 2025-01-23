@@ -3,67 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-            color: #333;
-            background: black;
-        }
-        .container {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            position: relative;
-            z-index: 1;
-        }
-        .construction-icon {
-            font-size: 80px;
-            color: #ffcc00;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin: 20px 0;
-        }
-        p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 1em;
-        }
-        a {
-            color: #0078d7;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
- */
-    </style>
+    <meta name="description" content="Personal Work Website | [Your Name]">
+    <title>[Your Name] - Web Designer / Developer</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="construction-icon">&#128679;</div>
-        <h1>Website Under Construction</h1>
-        <p>Hi there!</p>
-        <p>I am Harshit Malpani. I am a Software Developer working hard to bring you something amazing. Please check back soon!</p>
-        <div class="contact">
-            <p>In the meantime, feel free to reach out:</p>
-            <p>Email: <a href="mailto:malpani.harshit@gmail.com">malpani.harshit@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/hmalpani" target="_blank">linkedin.com/in/hmalpani</a></p>
-            <p>GitHub: <a href="https://github.com/hmalpani" target="_blank">github.com/hmalpani</a></p>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hello!</h1>
+            <h1>I'm Harshit Malpani, a Software Developer</h1>
+            <p>I design softwares that  efficiently solves modern problems.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn">Get in Touch</a>
+                <a href="#portfolio" class="btn">See My Work</a>
+            </div>
         </div>
-    </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="section-content">
+            <h2>A Little About Me</h2>
+            <p>I'm a passionate Computer Engineer with over 3 years of experience creating Embedded Software Systems. I am pursuing Masters degree in Computer Science and Engineering at University at Buffalo. I focus on delivering results through critical thinking and team work.</p>
+        </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section id="services" class="section services">
+        <h2>What I Can Do For You</h2>
+        <div class="service-item">
+            <h3>Web Design</h3>
+            <p>Responsive websites designed with your brand in mind.</p>
+        </div>
+        <div class="service-item">
+            <h3>UI/UX Design</h3>
+            <p>Creating seamless user experiences that convert.</p>
+        </div>
+        <div class="service-item">
+            <h3>Branding & Identity</h3>
+            <p>Crafting visual identities that tell your brand’s story.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <img src="portfolio1.jpg" alt="Project 1">
+            <p>Project 1 - Short description</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio2.jpg" alt="Project 2">
+            <p>Project 2 - Short description</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio3.jpg" alt="Project 3">
+            <p>Project 3 - Short description</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section
+    <section id="testimonials" class="section testimonials">
+        <h2>What Clients Say</h2>
+        <blockquote>
+            <p>"[Testimonial quote]”</p>
+            <footer>- Client Name, Company</footer>
+        </blockquote>
+        <blockquote>
+            <p>"[Testimonial quote]”</p>
+            <footer>- Client Name, Company</footer>
+        </blockquote>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Harshit Malpani" required>
+            <input type="email" name="malpani.harshit@gmail.com" placeholder="malpani.harshit@gmail.com" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 [Your Name] | <a href="#">Privacy Policy</a></p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/hmalpani" target="hmalpani">LinkedIn</a>
+            <a href="https://github.com/hmalpani" target="hmalpani">Github</a>
+        </div>
+    </footer>
+
 </body>
 </html>
